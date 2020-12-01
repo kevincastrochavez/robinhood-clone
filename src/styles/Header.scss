@@ -1,0 +1,55 @@
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    margin-left: 48px;
+
+    & img {
+      width: 25px;
+    }
+  }
+
+  &__search {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    &-container {
+      height: 100%;
+      width: 375px;
+      border: 1px solid #31363a;
+      border-radius: 4px;
+
+      display: flex;
+      justify-content: center;
+
+      & input {
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        margin: 0 5px;
+        outline-width: 0;
+        color: white;
+      }
+    }
+  }
+
+  &__menu {
+    margin: 0 48px;
+
+    & a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 0 10px;
+
+      &:hover {
+        color: #5ac53b;
+      }
+    }
+  }
+}
